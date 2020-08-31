@@ -18,9 +18,14 @@
       crossorigin="anonymous"
     />
     <link rel="stylesheet" href="" />
+    <style>
+        img {
+            width: 100%;
+        }
+    </style>
   </head>
   <body>
-      <!-- Default NavBar from Bootstrap -->
+    <!-- Default NavBar from Bootstrap -->
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
       <a class="navbar-brand" href="#">Navbar</a>
       <button
@@ -89,12 +94,37 @@
     </nav>
 
     <div class="container">
-        <div class="row">
-            <div class="col-sm-12">
-                <h1 class="text-center">Welcome to My Portfolio!</h1>
-            </div>
+      <div class="row">
+        <div class="col-sm-12">
+          <h1 class="text-center">Welcome to My Portfolio!</h1>
         </div>
+      </div>
+      <div class="row">
+        <div class="col-sm-3">
+          <img src="https://www.placecage.com/c/150/150" alt="Nicholas Cage" />
+        </div>
+        <div class="col-sm-9">
+          <p>
+            My text will go here. Lorem ipsum dolor sit amet consectetur
+            adipisicing elit. Tempora culpa alias sunt blanditiis ipsum
+            accusantium a, possimus laboriosam. Debitis sunt facere quis esse
+            ea, placeat culpa explicabo adipisci quia illo.
+          </p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-sm-9 order-2 order-sm-1">
+          <p>
+            My text will go here. Lorem ipsum dolor sit amet consectetur
+            adipisicing elit. Tempora culpa alias sunt blanditiis ipsum
+            accusantium a, possimus laboriosam. Debitis sunt facere quis esse
+            ea, placeat culpa explicabo adipisci quia illo.
+          </p>
+        </div>
+        <div class="col-sm-3 order-1 order-sm-2">
+          <img src="https://www.placecage.com/c/150/150" alt="Nicholas Cage" />
+        </div>
+      </div>
     </div>
-
   </body>
 </html>
